@@ -13,7 +13,7 @@ const Table = ({ transactions }) => {
           <h>Amount</h>
         </tr>
       </head>
-      <body>
+      <>
         {transactions.map((transaction) => (
           <tr key={transaction.id}>
             <td>{transaction.date}</td>
@@ -26,7 +26,7 @@ const Table = ({ transactions }) => {
           <td colSpan="3">Total</td>
           <td>{total}</td>
         </tr>
-      </body>
+      </>
     </table>
   );
 };

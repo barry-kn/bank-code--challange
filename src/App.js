@@ -8,12 +8,13 @@ function App() {
   useEffect(() => {
     fetch('http://localhost:3000/transactions')
       .then(response => response.json())
-      .then(data => setTransactions(data.transactions));
+      .then(data => setTransactions(data));
   }, []);
 
   return (
     <>
       <Table transactions={transactions} />
+
       <Form />
     </>
   );
