@@ -1,5 +1,5 @@
 import React from 'react';
-
+import App from './App.js'
 function Table(props) {
   const { transactions, handleSort, handleDelete } = props;
 
@@ -18,7 +18,9 @@ function Table(props) {
           <tr key={transaction.id}>
             <td>{transaction.date}</td>
             <td>{transaction.description}</td>
-            <td>{typeof transaction.amount === 'number' ? transaction.amount.toFixed(2) : ''}</td>
+            <td style={{ color: transaction.amount >= 0 ? 'green' : 'red' }}>
+              {transaction.amount >= 0 ? '+' : '-'}${Math.abs(transaction.amount).toFixed(2)}
+            </td>
             <td>
               <button onClick={() => handleDelete(transaction.id)}>Delete</button>
             </td>
