@@ -1,34 +1,32 @@
 import React from 'react';
 
-const Table = ({ transactions }) => {
-  const total = transactions.reduce((acc, transaction) => acc + transaction.amount, 0);
+function Table(props) {
+  const { transactions, handleSort, handleDelete } = props;
 
   return (
     <table>
-      <head>
+      <thead>
         <tr>
-          <h>Date</h>
-          <h>Description</h>
-          <h>Category</h>
-          <h>Amount</h>
+          <th onClick={() => handleSort('date')}>Date</th>
+          <th onClick={() => handleSort('description')}>Description</th>
+          <th onClick={() => handleSort('amount')}>Amount</th>
+          <th></th>
         </tr>
-      </head>
-      <>
-        {transactions.map((transaction) => (
+      </thead>
+      <tbody>
+        {transactions.map(transaction => (
           <tr key={transaction.id}>
             <td>{transaction.date}</td>
             <td>{transaction.description}</td>
-            <td>{transaction.category}</td>
-            <td>{transaction.amount}</td>
+            <td>{typeof transaction.amount === 'number' ? transaction.amount.toFixed(2) : ''}</td>
+            <td>
+              <button onClick={() => handleDelete(transaction.id)}>Delete</button>
+            </td>
           </tr>
         ))}
-        <tr>
-          <td colSpan="3">Total</td>
-          <td>{total}</td>
-        </tr>
-      </>
+      </tbody>
     </table>
   );
-};
+}
 
 export default Table;

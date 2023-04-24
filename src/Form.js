@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const Form = ({ addTransaction }) => {
+const Form = ({ handleAddTransaction }) => {
   const [date, setDate] = useState('');
   const [description, setDescription] = useState('');
   const [category, setCategory] = useState('');
@@ -9,12 +9,12 @@ const Form = ({ addTransaction }) => {
   const handleSubmit = (event) => {
     event.preventDefault();
     const newTransaction = {
-      date: date,
-      description: description,
-      category: category,
+      date,
+      description,
+      category,
       amount: parseFloat(amount),
     };
-    addTransaction(newTransaction);
+    handleAddTransaction(newTransaction);
     setDate('');
     setDescription('');
     setCategory('');
@@ -23,44 +23,44 @@ const Form = ({ addTransaction }) => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <label>
-        Date:
+      <h2>Add a new transaction</h2>
+      <div>
+        <label htmlFor="date">Date</label>
         <input
           type="date"
+          id="date"
           value={date}
-          onChange={(e) => setDate(e.target.value)}
-          required
+          onChange={(event) => setDate(event.target.value)}
         />
-      </label>
-      <label>
-        Description:
+      </div>
+      <div>
+        <label htmlFor="description">Description</label>
         <input
           type="text"
+          id="description"
           value={description}
-          onChange={(e) => setDescription(e.target.value)}
-          required
+          onChange={(event) => setDescription(event.target.value)}
         />
-      </label>
-      <label>
-        Category:
+      </div>
+      <div>
+        <label htmlFor="category">Category</label>
         <input
           type="text"
+          id="category"
           value={category}
-          onChange={(e) => setCategory(e.target.value)}
-          required
+          onChange={(event) => setCategory(event.target.value)}
         />
-      </label>
-      <label>
-        Amount:
+      </div>
+      <div>
+        <label htmlFor="amount">Amount</label>
         <input
           type="number"
-          step="0.01"
+          id="amount"
           value={amount}
-          onChange={(e) => setAmount(e.target.value)}
-          required
+          onChange={(event) => setAmount(event.target.value)}
         />
-      </label>
-      <button type="submit">Add Transaction</button>
+      </div>
+      <button type="submit">Add transaction</button>
     </form>
   );
 };
