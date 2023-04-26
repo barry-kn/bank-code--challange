@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-direct acces on browser http://localhost:3002 
+ direct link bank-code-challange-q1xg.vercel.app
 
 
 
