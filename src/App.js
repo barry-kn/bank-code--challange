@@ -7,9 +7,9 @@ function App() {
   const [transactions, setTransactions] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:3000/transactions')
+    fetch('https://my-json-server.typicode.com/barry-kn/bank-code--challange/transactions')
       .then(response => response.json())
-      .then(data => setTransactions(data));
+      .then(transactions => setTransactions(transactions));
   }, []);
 
   const handleSort = (type) => {
