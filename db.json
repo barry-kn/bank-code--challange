@@ -1,103 +1,97 @@
 {
-    "transactions": [
-      {
-        "id": 1,
-        "date": "2019-12-01",
-        "description": "Paycheck from Bob's Burgers",
-        "category": "Income",
-        "amount": 1000
-      },
-      {
-        "id": 2,
-        "date": "2019-12-01",
-        "description": "South by Southwest Quinoa Bowl at Fresh & Co",
-        "category": "Food",
-        "amount": -10.55
-      },
-      {
-        "id": 3,
-        "date": "2019-12-02",
-        "description": "South by Southwest Quinoa Bowl at Fresh & Co",
-        "category": "Food",
-        "amount": -10.55
-      },
-      {
-        "id": 4,
-        "date": "2019-12-04",
-        "description": "Sunglasses, Urban Outfitters",
-        "category": "Fashion",
-        "amount": -24.99
-      },
-      {
-        "id": 5,
-        "date": "2019-12-06",
-        "description": "Venmo, Alice Pays you for Burrito",
-        "category": "Food",
-        "amount": 8.75
-      },
-      {
-        "id": 6,
-        "date": "2019-12-06",
-        "description": "Chipotle",
-        "category": "Food",
-        "amount": -17.59
-      },
-      {
-        "id": 7,
-        "date": "2019-12-07",
-        "description": "Birthday Check from Grandma",
-        "category": "Gift",
-        "amount": 50
-      },
-      {
-        "id": 8,
-        "date": "2019-12-09",
-        "description": "Lyft Ride",
-        "category": "Transportation",
-        "amount": -13.25
-      },
-      {
-        "id": 9,
-        "date": "2019-12-11",
-        "description": "Paycheck from Bob's Burgers",
-        "category": "Income",
-        "amount": 1000
-      },
-      {
-        "id": 10,
-        "date": "2019-12-16",
-        "description": "Tickets, Flatiron Multiplex Cinemas",
-        "category": "Entertainment",
-        "amount": -24
-      },
-      {
-        "id": 11,
-        "date": "2019-12-16",
-        "description": "MTA Vending Machine: MetroCard",
-        "category": "Transportation",
-        "amount": -116.39
-      },
-      {
-        "id": 12,
-        "date": "2019-12-17",
-        "description": "Venmo, Pay Roommate for Rent",
-        "category": "Housing",
-        "amount": -975
-      },
-      {
-        "date": "2022-07-09",
-        "description": "Office lunch",
-        "category": "Food",
-        "amount": "2000",
-        "id": 13
-      },
-      {
-        "date": "2022-07-09",
-        "description": "Office lunch Wednesday",
-        "category": "Food",
-        "amount": "3000",
-        "id": 14
-      }
-    ]
-   }
+  "Scifi"  : [
+    {
+      "id": 1,
+      "title": "Stranger Things",
+      "genre": "Sci-Fi, Horror",
+      "description": "When a young boy disappears, his mother, a.",
+      "releaseYear": 2016,
+      "poster": "https://occ-0-6399-6126.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABeqfT2_-pIeAnhkqj0GpudyhvXhx94AqyF9tkpneVdXu-3OATs6WlyyJJGhDCI9f8aYJJShAluJXN888F2NuB1cdlle-7Ky89bq8VkR-ilzL8yy5sT_4nUedoHC5jun8INFE.jpg?r=a07",
    
+      "url": "https://youtu.be/vS3_72Gb-bI"
+    
+  
+    },
+    {
+      "id": 1,
+      "title": "Stranger Things",
+      "genre": "Sci-Fi, Horror",
+      "description": "When a young boy disappears, his mother, a police chief, and his friends must confront terrifying forces in order to get him back.",
+      "releaseYear": 2016,
+      "poster": "https://occ-0-6399-6126.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABU4q7Az6MhQre0gLszdVSDJkh_bT4_AyLuDkNFBO29-ppCWizRCwQv0WGMuV_DKerMg7W7YcGgSXR3h06_Q53hgiQ8ONEIVLNJwk0rkdLlYh8MtoHK97spCikvVZJNMdxl25.jpg?r=6e7",
+  
+      "url": "https://www.youtube.com/watch?v=Se26Op9sEC8"
+  
+    },
+    {
+      "id": 1,
+      "title": "Stranger Things",
+      "genre": "Sci-Fi, Horror",
+      "description": "When a young boy disappears, his mother, a police chief, and his friends must confront terrifying forces in order to get him back.",
+      "releaseYear": 2016,
+      "poster": "https://occ-0-6399-6126.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABV5_ftQ1234i9nZD3GW7WBIVOoTL8v-wujIAfKcNCYOKV-YU8eA-1iwKaUP9xEls2SMy1d6aF0vPP2gpHBxFfIvoTVQ8hfut3AL5CDdVrETiR_Q0u4CTKIjHdY2zWiHsbELx.jpg?r=880",
+      "url": "https://youtu.be/r51cYVZWKdY"
+    },
+    {
+      "id": 1,
+      "title": "Stranger Things",
+      "genre": "Sci-Fi, Horror",
+      "description": "When a young boy disappears, his mother, a police chief, and his friends must confront terrifying forces in order to get him back.",
+      "releaseYear": 2016,
+      "poster": "https://occ-0-6399-6126.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABUqWqTrWjNDxK_78WnRwGKxJ62Z2rc9eGIDD6ebf4pFDEEurJo6RBkRYgZ2D5nXIPV5pJyGWEU65vRlo_Hj9MIxwKHoQBxcXRgyGqvJ9KuegsaJremqTbRUsUsqqpZbBU7DX.jpg?r=b25",
+      "url": "https://youtu.be/GVPzGBvPrzw"
+    }
+   
+  
+  
+  ],
+  "New" : [
+    
+        {
+          "id": 1,
+          "title": "The French Dispatch",
+          "genre": "Comedy, Drama",
+          "description": "A love letter to journalists set in an outpost of an American newspaper in a fictional 20th-century French city that brings to life a collection of stories published in 'The French Dispatch' magazine.",
+          "releaseYear": 2021,
+          "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQuMALRvycJdW-SOmd_aBPaXBk-X3OtYw2_w&usqp=CAU",
+          "url": "https://www.youtube.com/watch?v=OGFjWdi8E_g"
+        },
+        {
+          "id": 2,
+          "title": "Dune",
+          "genre": "Action, Adventure, Drama",
+          "description": "Feature adaptation of Frank Herbert's science fiction novel, about the son of a noble family entrusted with the protection of the most valuable asset and most vital element in the galaxy.",
+          "releaseYear": 2021,
+          "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxMdjnTxBwRk4ZzJjvd8AhBQUEjDq32zJEGg&usqp=CAU",
+          "url": "https://www.youtube.com/watch?v=n9xhJrPXop4"
+        },
+        {
+          "id": 3,
+          "title": "The Last Duel",
+          "genre": "Drama, History, Thriller",
+          "description": "King Charles VI declares that Knight Jean de Carrouges settle his dispute with his squire by challenging him to a duel.",
+          "releaseYear": 2021,
+          "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3DLmwznY0t83xRTu2pMcc6Kqxyl02OGMylA&usqp=CAU",
+          "url": "https://www.youtube.com/watch?v=8sAgbHNOXsI"
+        }, 
+    
+            {
+          "id": 4,
+          "title": "The French Dispatch",
+          "genre": "Comedy, Drama",
+          "description": "A love letter to journalists set in an outpost of an American newspaper in a fictional 20th-century French city that brings to life a collection of stories published in 'The French Dispatch' magazine.",
+          "releaseYear": 2021,
+          "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQuMALRvycJdW-SOmd_aBPaXBk-X3OtYw2_w&usqp=CAU",
+          "url": "https://www.youtube.com/watch?v=OGFjWdi8E_g"
+        },
+        {
+          "id": 5,
+          "title": "Dune",
+          "genre": "Action, Adventure, Drama",
+          "description": "Feature adaptation of Frank Herbert's science fiction novel, about the son of a noble family entrusted with the protection of the most valuable asset and most vital element in the galaxy.",
+          "releaseYear": 2021,
+          "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxMdjnTxBwRk4ZzJjvd8AhBQUEjDq32zJEGg&usqp=CAU",
+          "url": "https://www.youtube.com/watch?v=n9xhJrPXop4"
+        }
+      ]
+}
